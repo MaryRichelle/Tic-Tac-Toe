@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(44, 53, 92);
+  
+}
+h1 {
+  text-transform: uppercase;
+  display: grid;
+  place-items: center;
+  font-size: 50px;
+  color: darkgrey;
+}
+#container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.game-board {
+  margin-top: 30px;
+  width: 400px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: darkgrey;
+}
+.cell {
+  width: 33.33%;
+  height: 150px;
+  border: 2px solid rgb(44, 53, 92);
+  display: grid;
+  place-items: center;
+  padding: 10px;
+  font-size: 50px;
+  color: crimson;
+}
+.player{
+    width: 150px;
+    font-size: 20px;
+    height: 150px;
+    color:darkgrey;
+    text-align: center;
+    border: 2px solid black ;
+    margin-top: 10%;
+}
+.game-status{
+  text-align: center;
+  font-size: 40px;
+  color: darkgrey;
+
+}
+.play-button{
+    width: 80px;
+    padding: 10px;
+    margin: 10px auto;
+   background-color: crimson;
+   text-transform: uppercase;
+   border-radius: 52px;
+   display: grid;
+  place-items: center;
+}
